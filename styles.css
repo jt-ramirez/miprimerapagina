@@ -1,0 +1,251 @@
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Lora', serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+i{
+    color: rgb(189, 142, 56);
+}
+
+header{
+    display: flex;
+    background-color: darkred;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    gap: 4em;
+    padding-right: 15px;
+}
+
+.perfil{
+    width: 250px;
+    padding: 5px;
+}
+
+.sección-1{
+    background-color: rgb(226, 218, 218);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+p{
+    padding: 5px;
+}
+
+.bordes{
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.interior-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sección-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.sección-3{
+    background-color: darkred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.gustos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gustos h2{
+    background-color: blanchedalmond;
+    border: solid;
+    padding: 10px;
+}
+
+.tarjetas{
+    display: flex;
+    width: 100%;
+}
+
+.tarjeta{
+    background-color: whitesmoke;
+    border: solid;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    height: 40px;
+}
+
+button:hover{
+    background-color: lightblue;
+}
+
+.segunda{
+    width: 100%;
+}
+
+.titulo{
+    padding: 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+.footer{
+    padding: 10px;
+}
+
+/* ------------- Formulario ------------- */
+  
+.formulario {
+    background-color: #968849;
+    border: 1px solid #d6d9dc;
+    border-radius: 3px;
+  
+    width: 80%;
+    padding: 50px;
+    margin: 30px 0 40px 0;
+  }
+
+  /* ------------- Campos del Formulario ------------- */
+
+.form-row {
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+  width: 250px;
+  padding: 7px;
+  font-size: 14px;
+}
+
+.form-row label {
+  margin-bottom: 3px;
+  text-align: initial;
+  color: black;
+}
+
+/* ------------- Para Pantallas de más de 700px ------------- */
+@media only screen and (min-width: 700px) {
+  .form-header {
+    padding: 50px;
+  }
+
+  .form-row {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  .form-row input[type="text"],
+  .form.row input[type="email"] {
+    width: 250px;
+    height: initial;
+  }
+  .form-row label {
+    text-align: right;
+    width: 120px;
+    margin-top: 7px;
+    padding-right: 20px;
+  }
+}
+
+.form-row textarea {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+
+
+  background-color: #bdbdbd;
+  border: 0;
+  border-radius: 6px;
+
+
+  min-height: 200px;
+  margin-bottom: 10px;
+  padding: 7px;
+  resize: none;
+
+
+  width: 100%;
+}
+/* ------------- Para Pantallas de más de 700px ------------- */
+
+
+.form-row textarea {
+    width: 250px;
+  }
+
+  .form-row button {
+    font-size: 16px;
+    font-weight: bold;
+  
+  
+    color: #ffffff;
+    background-color: #5995da;
+  
+  
+    border: none;
+    border-radius: 3px;
+  
+  
+    padding: 10px 40px;
+    cursor: pointer;
+  }
+  
+  
+  .form-row button:hover {
+    background-color: #76aeed;
+  }
+  
+  
+  .form-row button:active {
+    background-color: #407fc7;
+  }
+  
+  
+  /* ------------- Para Pantallas de más de 700px ------------- */
+  
+  
+  .form-row button {
+      margin-left: 120px;
+  }
